@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,c,d;
+    cin >> a >> b >> c ;
+    d = a+b+c;
+    if (d==180){
+        cout << "it forms triangle";
+    }else{
+        cout << "it doen't forms the triangle";
+    }
+
+    return 0;
+}
